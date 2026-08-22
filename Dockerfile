@@ -12,4 +12,4 @@ RUN uv sync --locked
 COPY . .
 
 # Set entry point
-ENTRYPOINT ["uv", "run", "python", "pipeline/ingest_xlsx_to_csv.py"]
+ENTRYPOINT ["uv", "run", "python", "pipeline/ingest_xlsx_into_sql.py"]
